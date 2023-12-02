@@ -1,0 +1,22 @@
+
+public class Review2 {
+
+        public static void main(String[] args) {
+            // iの値が1から100より小さい間、処理を繰り返す
+            for (int i = 1; i < 100; i++) {
+                 //iの値が3かつ５で割り切れるとき
+                if(i % 3 == 0&&i % 5 == 0) {
+                System.out.println("i = " + "FizzBuzz");
+                // iの値が3で割り切れるとき
+                }else if (i % 3 == 0 ) {
+                    // Fizzを表示する
+                    System.out.println("i = " + "Fizz");
+                 // iの値が5で割り切れるとき
+             }else if (i % 5 == 0 ) {
+                    System.out.println("i = " + "Buzz");
+             }else {
+                        System.out.println(i);
+                    }
+                }
+            }
+        }
