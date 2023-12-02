@@ -6,14 +6,14 @@ public class Review2 {
             for (int i = 1; i < 100; i++) {
                  //iの値が3かつ５で割り切れるとき
                 if(i % 3 == 0&&i % 5 == 0) {
-                System.out.println("i = " + "FizzBuzz");
+                System.out.println( "FizzBuzz");
                 // iの値が3で割り切れるとき
                 }else if (i % 3 == 0 ) {
                     // Fizzを表示する
-                    System.out.println("i = " + "Fizz");
+                    System.out.println( "Fizz");
                  // iの値が5で割り切れるとき
              }else if (i % 5 == 0 ) {
-                    System.out.println("i = " + "Buzz");
+                    System.out.println( "Buzz");
              }else {
                         System.out.println(i);
                     }
